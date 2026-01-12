@@ -19,7 +19,7 @@ IChatClient client = new OpenAIClient(credential, options).GetChatClient("openai
 string prompt = "What is AI? explain max 20 words";
 Console.WriteLine($"user >>> {prompt}");
 
-/*ChatResponse response = await client.GetResponseAsync(prompt);
+ChatResponse response = await client.GetResponseAsync(prompt);
 
 Console.WriteLine(response);
-Console.WriteLine($"Tokens used: in={response.Usage?.InputTokenCount}, out={response.Usage?.OutputTokenCount}");*/
+Console.WriteLine($"Tokens used: in={response.Usage?.InputTokenCount}, out={response.Usage?.OutputTokenCount}");
