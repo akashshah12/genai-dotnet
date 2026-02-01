@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>69f052c9-7a60-442a-b916-ad299131dfe7</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.AI" Version="9.8.0" />
+		<PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.8.0-preview.1.25412.6" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Extensions.VectorData.Abstractions" Version="9.7.0" />
+		<PackageReference Include="Microsoft.SemanticKernel.Connectors.InMemory" Version="1.64.0-preview" />
+	</ItemGroup>
+
+
+</Project>

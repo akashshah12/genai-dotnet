@@ -1,5 +1,11 @@
 <Solution>
   <Folder Name="/section1_llms/">
+    <Project Path="FunctionCall/FunctionCall.csproj" />
     <Project Path="TextCompletion/TextCompletion.csproj" />
+  </Folder>
+  <Folder Name="/section2_vectors/">
+	<Project Path="Embeddings/Embeddings.csproj" />
+	<Project Path="VectorSearch/VectorSearch.csproj" />
+	<Project Path="VectorSearch_Ollama/VectorSearch_Ollama.csproj" />
   </Folder>
 </Solution>
