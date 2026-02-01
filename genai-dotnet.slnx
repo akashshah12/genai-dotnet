@@ -4,8 +4,14 @@
     <Project Path="TextCompletion/TextCompletion.csproj" />
   </Folder>
   <Folder Name="/section2_vectors/">
-	<Project Path="Embeddings/Embeddings.csproj" />
-	<Project Path="VectorSearch/VectorSearch.csproj" />
-	<Project Path="VectorSearch_Ollama/VectorSearch_Ollama.csproj" />
+    <Project Path="Embeddings/Embeddings.csproj" />
+    <Project Path="VectorSearch/VectorSearch.csproj" />
+    <Project Path="VectorSearch_Ollama/VectorSearch_Ollama.csproj" />
+  </Folder>
+  <Folder Name="/section3_rag/">
+    <Project Path="ChatApp_RAG/ChatApp_RAG.csproj" />
+    <Project Path="ChatApp_RAG_Qdrant/ChatApp_RAG_Qdrant.AppHost/ChatApp_RAG_Qdrant.AppHost.csproj" />
+    <Project Path="ChatApp_RAG_Qdrant/ChatApp_RAG_Qdrant.ServiceDefaults/ChatApp_RAG_Qdrant.ServiceDefaults.csproj" />
+    <Project Path="ChatApp_RAG_Qdrant/ChatApp_RAG_Qdrant.Web/ChatApp_RAG_Qdrant.Web.csproj" />
   </Folder>
 </Solution>
